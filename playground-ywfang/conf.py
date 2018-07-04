@@ -5,6 +5,11 @@ except ImportError:
 else:
     import configparser
 
+    """
+    an alternative way is 'cp configparser ConfigParser' in
+    your computer
+    """
+
 try:
     print('ConfigParser: ', ConfigParser)
 except ImportError:
